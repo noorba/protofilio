@@ -1,26 +1,44 @@
-.img-responsive{
+
+.container {
+	display:flex;
+}
+ 
+ 
+.img-responsive {
   max-width: 100%;
   height: auto;
 
 }
 
 
-.row{
+.logo {
+	width:20%;
+	height:auto;
+}
+.row {
 	width: 100%;
 }
-.col-md-12{
+
+
+.col-md-12 {
 	width:100%;
 }
-.col-md-4{
+
+
+.col-md-4 {
 	width:33.33%;
 }
 
-*{font-family: 'Lato', sans-serif;
+
+* {font-family: "Lato", sans-serif;
 }
 
-.feature{
+
+.feature {
 	color:#7d97ad
 }
+
+
 hr { 
  border: solid 2px dimgrey !important;
  background-color: #2d3c4 !important;
